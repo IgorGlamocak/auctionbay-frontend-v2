@@ -1,0 +1,1422 @@
+.layout-container {
+  height: calc(100vh - 200px);
+}
+.container-1440 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 1440px;
+  margin: 0 auto; /* Horizontally center the container within its parent */
+  /* Add any other necessary styles */
+}
+
+
+.top-container {
+  width: 1440px; /* Set your desired width */
+  height: 38px; /* Set your desired height */
+  padding: 0px 32px; /* Set your desired padding */
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+  gap: 8px; /* Set your desired gap */
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  background-color: #F6F6F4; /* Your desired color */
+}
+
+.heading-container {
+  width: 1440px; /* Your desired width */
+  padding: 15px 32px; /* Adjusted padding (top, right & bottom, left) */
+  gap: 16px; /* Gap between child elements */
+  margin: 0 auto; /* Centers the block horizontally */
+  display: flex; /* Assuming you want its children to be flex items */
+  flex-direction: column; /* Stack children vertically */
+  align-items: start; /* Align children horizontally in the middle */
+}
+
+
+.custom-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+#login-page footer,
+#signup-page footer {
+  display: none !important;
+}
+
+.primaryBackground {
+  background-color: #F6F6F4;
+}
+
+.login-form,
+.register-form {
+  width: 100%;
+  width: min(100%, 420px);
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.sidebar__btn-menu,
+.topbar {
+  height: 80px;
+}
+
+.topbar__avatar {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.topbar__avatar img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.circle {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: 64px;
+  height: 64px;
+  background-color: #F4FF47;
+  border-radius: 50%; /* This makes it a circle */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 32px;
+  width: 1440px;
+  height: 104px;
+  margin: 0 auto; /* Center the navbar */
+  position: relative; /* Add this line */
+}
+.left-items {
+  display: flex;
+  align-items: center;
+}
+.right-items {
+  margin-left: auto;
+}
+.navbar-link {
+  margin-right: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.login-button {
+  background-color: #F4FF47;
+  height: 40px;
+  color: #000000; /* Text color (usually black for good contrast with yellow) */
+  border-radius: 20px; /* Adjust the value for desired roundness */
+  border: 0px solid #DDE9E6; /* Border: 1px solid with the specified color */
+  transition: background-color 0.5s; /* Smooth transition for background color */
+  font-size: 16px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 24px; /* Line height */
+}
+.login-button:active {
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+
+
+.form-field {
+  width: 100%; /* Width: Fill (100%) */
+  height: 40px; /* Height: 40px */
+  padding: 8px 16px; /* Padding: 8px 16px */
+  border: 1px solid #DDE9E6; /* Border: 1px solid with the specified color */
+  border-radius: 16px; /* Border-radius: 16px */
+  gap: 8px; /* Gap: 8px */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.form-field:focus {
+  outline: none; /* Remove the default blue outline on focus */
+}
+
+.login-button:hover {
+  background-color: #F4FF47;
+}
+
+.startBidding-button {
+  background-color: #F4FF47;
+  color: #000000;
+  border-radius: 16px;
+  padding: 8px 16px;
+  gap: 8px;
+}
+
+.white-box {
+  width: fit-content;
+  height: 64px;
+  padding: 4px;
+  border-radius: 32px;
+  gap: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 100px;
+  background: #F4FF47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+
+.profile-circle {
+  width: 56px; /* Set the same width as the yellow circle */
+  height: 56px; /* Set the same height as the yellow circle */
+  border-radius: 100px;
+  gap: 4px;
+}
+
+.custom-box {
+  width: fit-content; /* Hug (251px) */
+  height: 64px; /* Fixed (64px) */
+  top: 96px;
+  left: 16px;
+  padding: 4px;
+  border-radius: 32px;
+  gap: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-button {
+  width: fit-content;
+  height: 56px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 32px;
+  gap: 4px;
+  background-color: #272D2D;
+  color: white;
+ }
+.auctions-nonButton {
+  width: fit-content;
+  padding: 8px 16px;
+  gap: 4px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.navigation-text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+ }
+
+.icon-image {
+  width: 20px;
+  height: 17px;
+  margin-right: 8px;
+  /* No border-radius here */
+}
+.profile-icon-image {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+
+.triple-navigator {
+  width: 402px;
+  height: 48px;
+  top: 164px;
+  left: 16px;
+  padding: 4px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #EDF4F2;
+}
+.triple-navigator {
+  display: flex;
+  gap: 8px;
+}
+.triple-navigator button {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 16px;
+  background-color: #EDF4F2;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+}
+.triple-navigator-active {
+  width: 126px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #272D2D;
+}
+.triple-navigator button:hover {
+  width: 126px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+  background-color: #A3C2B9;
+}
+.triple-navigator button.triple-navigator-active {
+  width: 126px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #272D2D;
+  color: white;
+}
+
+
+.auctions-container {
+  width: 1440px;
+  display: grid;
+  padding: 0px 32px 32px 32px; /* Padding: top right bottom left */
+  grid-template-columns: repeat(6, 1fr); /* Creates 6 columns */
+  column-gap: 1px;
+  row-gap: 10px;
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+
+/* Styles for the auction card */
+.auction-profile-card {
+  width: 216px;
+  height: 298px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keep content aligned horizontally */
+  justify-content: space-between; /* Align items to the start of the flex container */
+}
+
+
+.auction-profile-image {
+  width: 208px;
+  height: 198px;
+  border-radius: 12px;
+  margin-top: auto; /* Pushes the image to the bottom */
+  align-self: center; /* Ensures the image is centered within its flex container */
+}
+
+
+.auction-profile-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  align-self: start;
+  color: #071015;
+  width: 100%; /* Ensures text container uses full available width */
+}
+
+.done-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  padding: 2px 4px; /* Padding: top and bottom 2px, left and right 4px */
+  height: 16px;
+  border-radius: 8px;
+  background: #272D2D;
+  gap: 8px; /* Space between items in the flex container */
+}
+.in-progress-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  padding: 2px 4px; /* Padding: top and bottom 2px, left and right 4px */
+  height: 16px;
+  border-radius: 8px;
+  background: #F9FF90;
+  gap: 8px; /* Space between items in the flex container */
+ }
+
+
+.container-of-texts {
+  justify-content: space-evenly;
+  width: 216px;
+  height: 92px;
+  padding: 8px 8px 4px 8px; /* top right bottom left */
+  gap: 8px;
+}
+.element-twohundred {
+  min-width: 200px;
+  max-width: 200px; /* Set the maximum width of the element */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+  white-space: nowrap; /* Ensure text does not wrap */
+  display: block;
+}
+
+
+.caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.caption-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: #071015;
+}
+.caption-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 24px;
+  text-align: left;
+  color: #071015;
+}
+  .in-progress-element-container {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+.hours-remaining-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  color: #071015;
+}
+.hours-remaining-container {
+  margin-right: 3px;
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+  padding: 2px 4px; /* top and bottom padding, left and right padding */
+  border-radius: 8px;
+  gap: 4px;
+}
+
+.auction-normal-image-container {
+  width: 216px;
+  height: 206px;
+  padding: 4px;
+  gap: 8px;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.auction-normal-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Zoom and crop as necessary to cover the container */
+}
+
+
+
+.auction-profile-image-editable {
+  width: 208px;
+  height: 150px;
+  border-radius: 12px;
+  margin-top: auto; /* Pushes the image to the bottom */
+  align-self: center; /* Ensures the image is centered within its flex container */
+}
+
+.edit-delete-container {
+  margin-top: 7px;
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  height: auto; /* Allow height to adjust based on content */
+}
+.edit-btn {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 156px;
+  height: auto; /* Allow the height to adjust based on content */
+  padding: 8px 16px; /* top and bottom padding, left and right padding */
+  border-radius: 16px;
+  gap: 8px;
+  background: #272D2D;
+  color: white;
+}
+.edit-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.edit-btn-content {
+  display: flex;
+  align-items: center; /* Center content horizontally in a row layout */
+}
+
+
+.delete-btn {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: 48px;
+  height: 40px;
+  padding: 8px 16px; /* top and bottom padding, left and right padding */
+  border-radius: 16px;
+  border: 1px solid; /* Adding a border, specify the border color and style if needed */
+  gap: 8px;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.bidding-container {
+  width: 216px;
+  height: 250px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keep content aligned horizontally */
+  justify-content: space-evenly; /* Align items to the start of the flex container */
+}
+
+.only-24h-left {
+  width: fit-content;
+  height: fit-content;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 4px;
+  background: #FFAA98;
+}
+
+.container-1440-details-page {
+  width: min(100%, 1440px);
+  height: min(100%, 920px);
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0px 32px 32px 32px;
+  gap: 16px;
+}
+.auction-image-details {
+  width: 680px;
+  height: 888px;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative; /* Add position relative to enable absolute positioning of the image */
+}
+.auction-image-details img {
+  width: auto;
+  height: 100%; /* Set height to 100% to fill the container vertically */
+  position: absolute;
+  left: 50%; /* Move image to the center horizontally */
+  top: 50%; /* Move image to the center vertically */
+  transform: translate(-50%, -50%); /* Center the image precisely */
+}
+.auction-details-right-container {
+  width: min(100%, 680px); /* Ensures width fills available space but doesn't exceed 680px */
+  height: min(100%, 888px); /* Ensures height fills available space but doesn't exceed 888px */
+  gap: 16px; /* Note: Gap only applies within flex containers */
+  display: flex;
+  flex-direction: column;
+
+}
+.item-detail-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: min(100%, 680px); /* Ensures width fills available space but doesn't exceed 680px */
+  height: 283px; /* Hugs the content height */
+  padding: 16px;
+  border-radius: 16px;
+  gap: 16px; /* Note: Gap only applies within flex containers */
+  background: white;
+}
+.item-detail-bidding-history {
+  width: min(100%, 680px); /* Ensures width fills available space but doesn't exceed 680px */
+  height: 589px; /* Ensures height fills available space but doesn't exceed 589px */
+  padding: 16px;
+  border-radius: 16px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.item-detail-description-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.time-element {
+  width: min(100%, 648px); /* Ensures width fills available space but doesn't exceed 648px */
+  height: fit-content; /* Hugs the content height */
+  display: flex; /* Set display to flex */
+  justify-content: space-between; /* Align items with space between */
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item-detail-description-container {
+  max-height: 96px;
+  overflow-y: auto; /* Enable vertical scrollbar if content exceeds max height */
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item-detail-placing-bid {
+  height: 41px;
+  width: 648px;
+  gap: 8px;
+  display: flex; /* Enable flexbox */
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+}
+
+.bid-input-container {
+  width: 83px;
+  height: 40px;
+  padding: 0; /* Remove padding */
+  border-radius: 16px;
+  border: 1px solid #DDE9E6;
+  background: white;
+}
+
+.bid-input-container input[type="text"] {
+  width: calc(100%); /* Adjust width to accommodate padding */
+  height: 100%; /* Make input fill container height */
+  padding: 8px 16px; /* Add padding back for input */
+  border: none; /* Remove border */
+  border-radius: 16px; /* Apply border radius */
+  background: none; /* Remove background */
+}
+.place-bid-yellow-container {
+  display: inline-block; /* Display as inline-block to fit content */
+  min-width: 103px; /* Minimum width of 103px */
+  min-height: 40px; /* Minimum height of 40px */
+  padding: 8px 16px; /* Padding: top, right, bottom, left */
+  border-radius: 16px; /* Apply border-radius of 16px */
+  background: #F4FF47; /* Set background color to #F4FF47 */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.place-bid-yellow-container:hover {
+  background: #E5EA2E; /* Change background color on hover */
+}
+
+.place-bid-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bidding-history-title-container {
+  width: auto;
+  height: 28px;
+  margin-bottom: 7px;
+}
+
+.bidding-history-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center; /* Center items vertically */
+}
+.bidding-one-user-container {
+  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+  height: auto; /* Hug content height, equivalent to "Hug (48px)" */
+  padding: 8px 0; /* Padding: top and bottom 8px, left and right 0px */
+  border-bottom: 1px solid #EDF4F2; /* Border bottom: 1px solid, equivalent to "border: 0px, 0px, 1px, 0px" */
+  display: flex; /* Set display to flex */
+  flex-direction: row;
+  gap: 32px; /* Set gap between flex items */
+}
+
+.bidding-image-name-container {
+  width: 387px;
+  max-width: 387px; /* Set maximum width */
+  height: auto; /* Hug content height, equivalent to "Hug (32px)" */
+  display: flex; /* Set display to flex */
+  flex-direction: row; /* Set flex direction to row */
+  gap: 16px; /* Set gap between flex items */
+  align-items: center; /* Center items vertically */
+}
+
+.bidding-user-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+.bidding-user-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bidding-user-time-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden; /* Ensures any overflow is hidden */
+  text-overflow: ellipsis; /* Adds an ellipsis if the text overflows */
+  max-width: 100%; /* Adjust this as needed to fit your layout */
+}
+.bidding-user-amount-container-yellow {
+  width: 77px; /* Set width to 77px */
+  height: 32px; /* Set height to 32px */
+  padding: 6px 16px; /* Padding: top and bottom 6px, left and right 16px */
+  border-radius: 16px; /* Apply border-radius of 16px */
+  background: #F4FF47; /* Set background color */
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 4px; /* Set gap between flex items */
+}
+.bidding-user-amount-container-yellow-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.bidding-user-amount-container-yellow-icon {
+  width: 15px; /* Set width to 15px */
+  height: 15px; /* Set height to 15px */
+  top: 2.5px; /* Position from the top */
+  left: 2.5px; /* Position from the left */
+}
+.outbid-default {
+  width: 67px;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #FFAA98;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+.outbid-default-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071015;
+}
+.in-progress-default {
+  width: 100px;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #F9FF90;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+.in-progress-default-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071015;
+}
+.winning-default {
+  width: auto;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #ADFF90;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+.winning-default-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071015;
+}
+.done-default {
+  width: 56px;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #272D2D;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+.done-default-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.last-day-tag-default {
+  width: 69px;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 4px;
+  background: #FFAA98;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  display: flex;
+  flex-direction: row;
+}
+.more-than-a-day-default {
+  width: 70px;
+  height: 28px;
+  padding: 2px 8px;
+  border-radius: 16px;
+  gap: 4px;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  display: flex;
+  flex-direction: row;
+}
+
+.signout-popup {
+  top: 80px;
+  left: 80px;
+  padding: 16px;
+  border-radius: 16px;
+  position: fixed;
+  gap: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+.profile-settings-button {
+  width: 172px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  white-space: nowrap;
+  border: none;
+}
+.profile-settings-image {
+  width: 12.97px;
+  height: 13.33px;
+  top: 1.33px;
+  left: 1.51px;
+}
+.profile-settings-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.logout-container {
+  width: 100%;
+  height: auto;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid #272D2D;
+  gap: 8px;
+  background-color: transparent;
+}
+.logout-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #071015;
+}
+
+.profile-settings-popup {
+  width: 533px;
+  height: auto; /* Adjusts based on content */
+  top: 80px;
+  left: 80px;
+  padding: 16px;
+  border-radius: 16px;
+  position: fixed;
+  gap: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.popup-inside-container {
+  width: 501px;
+  height: auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.popup-name-surname-container {
+  width: 501px;
+  height: auto;
+  gap: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.popup-name-container {
+  width: auto;
+  height: 72px;
+  gap: 8px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.prfl-stgs-normal-text {
+  font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+.profile-settings-input-element {
+  width: 242px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid #DDE9E6;
+  gap: 8px;
+  background: transparent;
+}
+.profile-settings-email-input-element {
+  width: 501px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid #DDE9E6;
+  gap: 8px;
+  background: transparent;
+}
+.profile-settings-email-container {
+  height: 72px;
+  width: auto;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.profile-settings-cancel-save-container {
+  width: 501px;
+  height: auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.profile-settings-cancel-btn {
+  width: 85px;
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 16px;
+  gap: 8px;
+  background: #EDF4F2;
+  justify-content: center;
+  justify-items: center;
+}
+.profile-settings-save-btn {
+  width: auto;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: none;
+  gap: 8px;
+  background: #F4FF47;
+  white-space: nowrap;
+}
+.krneki {
+  width: 1440px;
+  align-content: center;
+}
+.container-testing-1440 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: -100px;
+  width: 1440px;
+  /* Add any other necessary styles */
+}
+
+.pswrd-container {
+  width: 501px;
+  height: 72px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.change-pass-container {
+  width: 501px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDE9E6;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+.upload-picture-button {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid #272D2D;
+  gap: 8px;
+  background-color: transparent;
+}
+.upload-picture-button-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071015;
+}
+.outbid-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #FFAA98;
+  justify-content: center;
+  align-items: center;
+}
+.in-progress-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #F9FF90;
+  justify-content: center;
+  align-items: center;
+}
+.winning-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #ADFF90;
+  justify-content: center;
+  align-items: center;
+}
+.done-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #272D2D;
+  justify-content: center;
+  align-items: center;
+}
+.tags-small-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #071015;
+}
+.tags-small-white-text {
+   font-family: 'Inter', sans-serif;
+   font-size: 10px;
+   font-weight: 300;
+   line-height: 12px;
+   color: #071015;
+ }
+.more-than-a-day-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 4px;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  display: flex;
+  flex-direction: row;
+}
+.last-day-tag-small {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 8px;
+  gap: 4px;
+  background: #FFAA98;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  display: flex;
+  flex-direction: row;
+}
+.auction-profile-card-won {
+  width: 216px;
+  height: 250px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keep content aligned horizontally */
+  justify-content: space-between; /* Align items to the start of the flex container */
+}
+.add-auction-container {
+  width: 533px; /* Fixed width */
+  height: fit-content; /* Hug content vertically */
+  top: 80px;
+  left: 80px;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 16px;
+  position: absolute; /* Ensure positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.add-auction-image-container-empty {
+  width: 501px; /* Fill width */
+  height: 168px; /* Fixed height */
+  padding: 32px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #F6F6F4;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+.add-image-button {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+  border: 1px solid #272D2D;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-image-button-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.add-auction-inner-container {
+  height: auto;
+  width: auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add-auction-title-container {
+  height: auto;
+  width: auto;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.auction-normal-title-container {
+  width: 501px; /* Fill width */
+  height: 40px; /* Fixed height */
+  border-radius: 16px;
+  padding: 8px 16px; /* padding: top/right/bottom/left */
+  gap: 8px;
+  display: flex;
+  align-items: flex-start; /* Align items to the start (top) */
+  background: #FFFFFF;
+  border: 1px solid #DDE9E6; /* border: width style color */
+}
+
+.auction-normal-title-container input[type="text"] {
+  width: 100%; /* Fill width */
+  height: 100%; /* Fill height */
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  background: transparent;
+  outline: none; /* Remove input focus outline */
+}
+.title-desc-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
+.auction-description-container {
+  width: auto;
+  height: auto;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.start-price-end-date-container {
+  height: auto;
+  width: auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.start-price-container {
+  width: auto;
+  height: auto;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.starting-price-auction {
+  width: auto;
+  height: auto;
+  padding: 8px 16px; /* padding: top/right/bottom/left */
+  border-radius: 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #DDE9E6; /* border: width style color */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.starting-price-auction input[type="text"] {
+  height: 24px;
+  width: 186px;
+  border: none;
+  outline: none;
+}
+
+
+.add-auction-image-filled {
+  width: 501px;
+  height: 168px;
+  border-radius: 16px;
+  padding: 16px;
+  gap: 8px;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+}
+
+.add-auction-image-filled > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the entire container */
+}
+.trash-button-image {
+  width: 48px;
+  height: 40px;
+  border-radius: 16px;
+  padding: 8px 16px;
+  gap: 8px;
+  background-color: #272D2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.custom-description-rich-text {
+  width: 469px;
+  height: 107px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #74817F;
+  border: none;
+  outline: none;
+}
+.show-image-bigger {
+  display: flex;
+  justify-content: center; /* Horizontally center the container */
+  align-items: center; /* Vertically center the container */
+  height: 100vh; /* Make the container take up the entire viewport height */
+}
+
+.show-image-bigger img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+  border-radius: 16px;
+  border: 3px solid #071015;
+}
+.close-image-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.main-container-won-bidding-auctions {
+  width: 1440px;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center content */
+  gap: 16px;
+}
+.main-container-empty-state-bidding-won {
+  height: 786px;
+  width: 1440px;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.inner-empty-state-container {
+  width: 331px;
+  height: 111px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text horizontally */
+}
+.heading-empty-state-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071015;
+}
+.text-empty-state-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #74817F;
+}
+.item-detail-bidding-history-container {
+  max-height: 500px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
