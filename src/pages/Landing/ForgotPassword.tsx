@@ -45,7 +45,6 @@ const ForgotPassword: FC = () => {
                     </div>
                     <ForgotPassForm/>
                     <div style={{flex: 1}}></div>
-                    {/* Create space to push the link to the bottom */}
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ const Navbar: FC = () => {
         <>
             <header>
                 <div className="navbar">
-                    <div className="circle">
+                    <div className="circle" style={{ width: '32px', height: '32px', borderRadius: '50%', overflow: 'hidden'}} >
                         <img
                             src="/images/vector.png"
                             alt="AuctionBay"

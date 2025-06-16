@@ -320,7 +320,7 @@ const Profile: FC = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </form>Add commentMore actions
+                                </form>
                             </div>
                         )}
 
