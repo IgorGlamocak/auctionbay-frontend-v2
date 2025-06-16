@@ -19,7 +19,7 @@ HTML, CSS, JavaScript, TypeScript, React, Git, GitHub, JWT, Figma
    ```
 2. Navigate to the project directory:
    ```
-   cd 01-project-AUCTIONBAY-frontend
+   cd auctionbay-frontend-v2
    ```
 3. Install dependencies:
    ```
